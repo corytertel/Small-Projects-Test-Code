@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/cory/Code/test_code/C++/todo_list/build",
+  "command": "/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang++   -g3 -pthread -gdwarf-4 -fPIC -Wno-deprecated -pipe -fno-elide-type -fdiagnostics-show-template-tree -Wall -Wextra -Werror -Wpedantic -Wvla -Wextra-semi -Wnull-dereference -Wswitch-enum -Wsuggest-override -O -MMD -MP -Wno-gnu-include-next -Wno-unused-variable -Wno-unused-parameter -std=gnu++20 -o CMakeFiles/main.dir/main.cpp.o -c /home/cory/Code/test_code/C++/todo_list/main.cpp",
+  "file": "/home/cory/Code/test_code/C++/todo_list/main.cpp"
+},
+{
+  "directory": "/home/cory/Code/test_code/C++/todo_list/build",
+  "command": "/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang++   -g3 -pthread -gdwarf-4 -fPIC -Wno-deprecated -pipe -fno-elide-type -fdiagnostics-show-template-tree -Wall -Wextra -Werror -Wpedantic -Wvla -Wextra-semi -Wnull-dereference -Wswitch-enum -Wsuggest-override -O -MMD -MP -Wno-gnu-include-next -Wno-unused-variable -Wno-unused-parameter -std=gnu++20 -o CMakeFiles/main.dir/cmdarg.cpp.o -c /home/cory/Code/test_code/C++/todo_list/cmdarg.cpp",
+  "file": "/home/cory/Code/test_code/C++/todo_list/cmdarg.cpp"
+}
+]

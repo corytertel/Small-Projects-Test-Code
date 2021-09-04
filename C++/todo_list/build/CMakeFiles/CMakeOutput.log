@@ -1,0 +1,459 @@
+The system is: Linux - 5.10.52 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/3.19.7/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/3.19.7/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/nix/store/pyv3351wlsa5r8sa8bbjpici3ksbvcqc-gnumake-4.3/bin/make cmTC_62c93/fast && /nix/store/pyv3351wlsa5r8sa8bbjpici3ksbvcqc-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_62c93.dir/build.make CMakeFiles/cmTC_62c93.dir/build
+make[1]: Entering directory '/home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62c93.dir/CMakeCCompilerABI.c.o
+/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang   -v -o CMakeFiles/cmTC_62c93.dir/CMakeCCompilerABI.c.o -c /nix/store/p1lk3bb1wzyn5v3nw8nyxrc44iy60vwk-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+clang version 12.0.1
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /nix/store/6qb8fb1nirk4wdsqc5fg9ig6327yzmrk-clang-12.0.1/bin
+Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0
+Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0
+Selected GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/nix/store/6qb8fb1nirk4wdsqc5fg9ig6327yzmrk-clang-12.0.1/bin/clang-12" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -nostdsysteminc -resource-dir /nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root -idirafter /nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -D _FORTIFY_SOURCE=2 -I/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -I/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include -internal-isystem /nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include -O2 -Wformat -Wformat-security -Werror=format-security -fdebug-compilation-dir /home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fgnuc-version=4.2.1 -vectorize-loops -vectorize-slp -faddrsig -o CMakeFiles/cmTC_62c93.dir/CMakeCCompilerABI.c.o -x c /nix/store/p1lk3bb1wzyn5v3nw8nyxrc44iy60vwk-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCCompilerABI.c
+clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-unknown-linux-gnu
+ignoring duplicate directory "/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include"
+ignoring duplicate directory "/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include"
+ignoring duplicate directory "/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include"
+ignoring duplicate directory "/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include"
+ignoring duplicate directory "/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include"
+ignoring duplicate directory "/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include"
+ignoring duplicate directory "/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include
+ /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include
+ /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include
+ /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include
+ /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include
+ /nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include
+ /nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include
+End of search list.
+Linking C executable cmTC_62c93
+/nix/store/p1lk3bb1wzyn5v3nw8nyxrc44iy60vwk-cmake-3.19.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62c93.dir/link.txt --verbose=1
+/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang  -v CMakeFiles/cmTC_62c93.dir/CMakeCCompilerABI.c.o -o cmTC_62c93 
+clang version 12.0.1
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /nix/store/6qb8fb1nirk4wdsqc5fg9ig6327yzmrk-clang-12.0.1/bin
+Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0
+Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0
+Selected GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/ld" --eh-frame-hdr -m elf_x86_64 -o cmTC_62c93 /nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crt1.o /nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crti.o /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtbegin.o -L/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib -L/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib -L/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib -L/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib -L/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib -L/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib -L/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib -L/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib -L/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0 -L/nix/store/lg104nh0szci8slz5z6494m457jm5y3p-gcc-10.3.0-lib/x86_64-unknown-linux-gnu/lib -L/nix/store/d3r0hhgljsp0nk5n4ra2k2ykvjyah96z-clang-12.0.1-lib/lib -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0 -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64 -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../.. -dynamic-linker=/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_62c93.dir/CMakeCCompilerABI.c.o -rpath /home/cory/Code/test_code/C++/todo_list/outputs/out/lib64 -rpath /home/cory/Code/test_code/C++/todo_list/outputs/out/lib -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtend.o /nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crtn.o
+make[1]: Leaving directory '/home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include]
+    add: [/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include]
+    add: [/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include]
+    add: [/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include]
+    add: [/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include]
+    add: [/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include]
+    add: [/nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include]
+  end of search list found
+  collapse include dir [/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include] ==> [/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include]
+  collapse include dir [/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include] ==> [/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include]
+  collapse include dir [/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include] ==> [/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include]
+  collapse include dir [/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include] ==> [/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include]
+  collapse include dir [/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include] ==> [/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include]
+  collapse include dir [/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include] ==> [/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include]
+  collapse include dir [/nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include] ==> [/nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include]
+  implicit include dirs: [/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include;/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include;/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include;/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include;/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include;/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include;/nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/nix/store/pyv3351wlsa5r8sa8bbjpici3ksbvcqc-gnumake-4.3/bin/make cmTC_62c93/fast && /nix/store/pyv3351wlsa5r8sa8bbjpici3ksbvcqc-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_62c93.dir/build.make CMakeFiles/cmTC_62c93.dir/build]
+  ignore line: [make[1]: Entering directory '/home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_62c93.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang   -v -o CMakeFiles/cmTC_62c93.dir/CMakeCCompilerABI.c.o -c /nix/store/p1lk3bb1wzyn5v3nw8nyxrc44iy60vwk-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang version 12.0.1]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /nix/store/6qb8fb1nirk4wdsqc5fg9ig6327yzmrk-clang-12.0.1/bin]
+  ignore line: [Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  ignore line: [Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  ignore line: [Selected GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/nix/store/6qb8fb1nirk4wdsqc5fg9ig6327yzmrk-clang-12.0.1/bin/clang-12" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -nostdsysteminc -resource-dir /nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root -idirafter /nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -D _FORTIFY_SOURCE=2 -I/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -I/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include -internal-isystem /nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include -O2 -Wformat -Wformat-security -Werror=format-security -fdebug-compilation-dir /home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fgnuc-version=4.2.1 -vectorize-loops -vectorize-slp -faddrsig -o CMakeFiles/cmTC_62c93.dir/CMakeCCompilerABI.c.o -x c /nix/store/p1lk3bb1wzyn5v3nw8nyxrc44iy60vwk-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCCompilerABI.c]
+  ignore line: [clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring duplicate directory "/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include]
+  ignore line: [ /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include]
+  ignore line: [ /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include]
+  ignore line: [ /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include]
+  ignore line: [ /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include]
+  ignore line: [ /nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include]
+  ignore line: [ /nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking C executable cmTC_62c93]
+  ignore line: [/nix/store/p1lk3bb1wzyn5v3nw8nyxrc44iy60vwk-cmake-3.19.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62c93.dir/link.txt --verbose=1]
+  ignore line: [/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang  -v CMakeFiles/cmTC_62c93.dir/CMakeCCompilerABI.c.o -o cmTC_62c93 ]
+  ignore line: [clang version 12.0.1]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /nix/store/6qb8fb1nirk4wdsqc5fg9ig6327yzmrk-clang-12.0.1/bin]
+  ignore line: [Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  ignore line: [Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  ignore line: [Selected GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/ld" --eh-frame-hdr -m elf_x86_64 -o cmTC_62c93 /nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crt1.o /nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crti.o /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtbegin.o -L/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib -L/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib -L/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib -L/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib -L/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib -L/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib -L/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib -L/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib -L/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0 -L/nix/store/lg104nh0szci8slz5z6494m457jm5y3p-gcc-10.3.0-lib/x86_64-unknown-linux-gnu/lib -L/nix/store/d3r0hhgljsp0nk5n4ra2k2ykvjyah96z-clang-12.0.1-lib/lib -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0 -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64 -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../.. -dynamic-linker=/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_62c93.dir/CMakeCCompilerABI.c.o -rpath /home/cory/Code/test_code/C++/todo_list/outputs/out/lib64 -rpath /home/cory/Code/test_code/C++/todo_list/outputs/out/lib -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtend.o /nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crtn.o]
+    arg [/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/ld] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_62c93] ==> ignore
+    arg [/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crt1.o] ==> ignore
+    arg [/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crti.o] ==> ignore
+    arg [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtbegin.o] ==> ignore
+    arg [-L/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib] ==> dir [/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib]
+    arg [-L/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib] ==> dir [/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib]
+    arg [-L/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib] ==> dir [/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib]
+    arg [-L/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib] ==> dir [/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib]
+    arg [-L/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib] ==> dir [/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib]
+    arg [-L/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib] ==> dir [/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib]
+    arg [-L/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib] ==> dir [/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib]
+    arg [-L/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib] ==> dir [/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib]
+    arg [-L/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib] ==> dir [/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib]
+    arg [-L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0] ==> dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0]
+    arg [-L/nix/store/lg104nh0szci8slz5z6494m457jm5y3p-gcc-10.3.0-lib/x86_64-unknown-linux-gnu/lib] ==> dir [/nix/store/lg104nh0szci8slz5z6494m457jm5y3p-gcc-10.3.0-lib/x86_64-unknown-linux-gnu/lib]
+    arg [-L/nix/store/d3r0hhgljsp0nk5n4ra2k2ykvjyah96z-clang-12.0.1-lib/lib] ==> dir [/nix/store/d3r0hhgljsp0nk5n4ra2k2ykvjyah96z-clang-12.0.1-lib/lib]
+    arg [-L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0] ==> dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0]
+    arg [-L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64] ==> dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64]
+    arg [-L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../..] ==> dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../..]
+    arg [-dynamic-linker=/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/ld-linux-x86-64.so.2] ==> ignore
+    arg [CMakeFiles/cmTC_62c93.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/cory/Code/test_code/C++/todo_list/outputs/out/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/cory/Code/test_code/C++/todo_list/outputs/out/lib] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtend.o] ==> ignore
+    arg [/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crtn.o] ==> ignore
+  collapse library dir [/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib] ==> [/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib]
+  collapse library dir [/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib] ==> [/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib]
+  collapse library dir [/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib] ==> [/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib]
+  collapse library dir [/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib] ==> [/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib]
+  collapse library dir [/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib] ==> [/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib]
+  collapse library dir [/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib] ==> [/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib]
+  collapse library dir [/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib] ==> [/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib]
+  collapse library dir [/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib] ==> [/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib]
+  collapse library dir [/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib] ==> [/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib]
+  collapse library dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0] ==> [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  collapse library dir [/nix/store/lg104nh0szci8slz5z6494m457jm5y3p-gcc-10.3.0-lib/x86_64-unknown-linux-gnu/lib] ==> [/nix/store/lg104nh0szci8slz5z6494m457jm5y3p-gcc-10.3.0-lib/x86_64-unknown-linux-gnu/lib]
+  collapse library dir [/nix/store/d3r0hhgljsp0nk5n4ra2k2ykvjyah96z-clang-12.0.1-lib/lib] ==> [/nix/store/d3r0hhgljsp0nk5n4ra2k2ykvjyah96z-clang-12.0.1-lib/lib]
+  collapse library dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0] ==> [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  collapse library dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64] ==> [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64]
+  collapse library dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../..] ==> [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib;/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib;/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib;/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib;/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib;/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0;/nix/store/lg104nh0szci8slz5z6494m457jm5y3p-gcc-10.3.0-lib/x86_64-unknown-linux-gnu/lib;/nix/store/d3r0hhgljsp0nk5n4ra2k2ykvjyah96z-clang-12.0.1-lib/lib;/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0;/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/nix/store/pyv3351wlsa5r8sa8bbjpici3ksbvcqc-gnumake-4.3/bin/make cmTC_a4a11/fast && /nix/store/pyv3351wlsa5r8sa8bbjpici3ksbvcqc-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_a4a11.dir/build.make CMakeFiles/cmTC_a4a11.dir/build
+make[1]: Entering directory '/home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a4a11.dir/CMakeCXXCompilerABI.cpp.o
+/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang++   -v -std=gnu++20 -o CMakeFiles/cmTC_a4a11.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/p1lk3bb1wzyn5v3nw8nyxrc44iy60vwk-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
+clang version 12.0.1
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /nix/store/6qb8fb1nirk4wdsqc5fg9ig6327yzmrk-clang-12.0.1/bin
+Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0
+Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0
+Selected GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ (in-process)
+ "/nix/store/6qb8fb1nirk4wdsqc5fg9ig6327yzmrk-clang-12.0.1/bin/clang-12" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -nostdsysteminc -resource-dir /nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root -idirafter /nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -isystem /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0 -isystem /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0/x86_64-unknown-linux-gnu -D _FORTIFY_SOURCE=2 -I/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -I/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include -internal-isystem /nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include -O2 -Wformat -Wformat-security -Werror=format-security -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir /home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -faddrsig -o CMakeFiles/cmTC_a4a11.dir/CMakeCXXCompilerABI.cpp.o -x c++ /nix/store/p1lk3bb1wzyn5v3nw8nyxrc44iy60vwk-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp
+clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-unknown-linux-gnu
+ignoring duplicate directory "/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include"
+ignoring duplicate directory "/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include"
+ignoring duplicate directory "/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"
+  as it is a non-system directory that duplicates a system directory
+ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include"
+ignoring duplicate directory "/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include"
+ignoring duplicate directory "/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include"
+ignoring duplicate directory "/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include"
+ignoring duplicate directory "/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"
+ignoring duplicate directory "/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include"
+  as it is a non-system directory that duplicates a system directory
+#include "..." search starts here:
+#include <...> search starts here:
+ /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include
+ /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include
+ /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include
+ /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include
+ /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include
+ /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0
+ /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0/x86_64-unknown-linux-gnu
+ /nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include
+ /nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include
+End of search list.
+Linking CXX executable cmTC_a4a11
+/nix/store/p1lk3bb1wzyn5v3nw8nyxrc44iy60vwk-cmake-3.19.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4a11.dir/link.txt --verbose=1
+/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang++  -v CMakeFiles/cmTC_a4a11.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a4a11 
+clang version 12.0.1
+Target: x86_64-unknown-linux-gnu
+Thread model: posix
+InstalledDir: /nix/store/6qb8fb1nirk4wdsqc5fg9ig6327yzmrk-clang-12.0.1/bin
+Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0
+Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0
+Selected GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/ld" --eh-frame-hdr -m elf_x86_64 -o cmTC_a4a11 /nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crt1.o /nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crti.o /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtbegin.o -L/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib -L/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib -L/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib -L/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib -L/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib -L/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib -L/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib -L/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib -L/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0 -L/nix/store/lg104nh0szci8slz5z6494m457jm5y3p-gcc-10.3.0-lib/x86_64-unknown-linux-gnu/lib -L/nix/store/d3r0hhgljsp0nk5n4ra2k2ykvjyah96z-clang-12.0.1-lib/lib -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0 -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64 -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../.. -dynamic-linker=/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_a4a11.dir/CMakeCXXCompilerABI.cpp.o -rpath /home/cory/Code/test_code/C++/todo_list/outputs/out/lib64 -rpath /home/cory/Code/test_code/C++/todo_list/outputs/out/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtend.o /nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crtn.o
+make[1]: Leaving directory '/home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include]
+    add: [/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include]
+    add: [/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include]
+    add: [/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include]
+    add: [/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include]
+    add: [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0]
+    add: [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0/x86_64-unknown-linux-gnu]
+    add: [/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include]
+    add: [/nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include]
+  end of search list found
+  collapse include dir [/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include] ==> [/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include]
+  collapse include dir [/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include] ==> [/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include]
+  collapse include dir [/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include] ==> [/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include]
+  collapse include dir [/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include] ==> [/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include]
+  collapse include dir [/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include] ==> [/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include]
+  collapse include dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0] ==> [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0]
+  collapse include dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0/x86_64-unknown-linux-gnu] ==> [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0/x86_64-unknown-linux-gnu]
+  collapse include dir [/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include] ==> [/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include]
+  collapse include dir [/nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include] ==> [/nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include]
+  implicit include dirs: [/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include;/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include;/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include;/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include;/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include;/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0;/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0/x86_64-unknown-linux-gnu;/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include;/nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/nix/store/pyv3351wlsa5r8sa8bbjpici3ksbvcqc-gnumake-4.3/bin/make cmTC_a4a11/fast && /nix/store/pyv3351wlsa5r8sa8bbjpici3ksbvcqc-gnumake-4.3/bin/make  -f CMakeFiles/cmTC_a4a11.dir/build.make CMakeFiles/cmTC_a4a11.dir/build]
+  ignore line: [make[1]: Entering directory '/home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_a4a11.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang++   -v -std=gnu++20 -o CMakeFiles/cmTC_a4a11.dir/CMakeCXXCompilerABI.cpp.o -c /nix/store/p1lk3bb1wzyn5v3nw8nyxrc44iy60vwk-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang version 12.0.1]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /nix/store/6qb8fb1nirk4wdsqc5fg9ig6327yzmrk-clang-12.0.1/bin]
+  ignore line: [Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  ignore line: [Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  ignore line: [Selected GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  ignore line: [ (in-process)]
+  ignore line: [ "/nix/store/6qb8fb1nirk4wdsqc5fg9ig6327yzmrk-clang-12.0.1/bin/clang-12" -cc1 -triple x86_64-unknown-linux-gnu -emit-obj --mrelax-relocations -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -fhalf-no-semantic-interposition -mframe-pointer=none -fmath-errno -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu x86-64 -tune-cpu generic -fno-split-dwarf-inlining -debugger-tuning=gdb -v -nostdsysteminc -resource-dir /nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root -idirafter /nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -isystem /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -isystem /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0 -isystem /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0/x86_64-unknown-linux-gnu -D _FORTIFY_SOURCE=2 -I/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include -I/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include -internal-isystem /nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include -O2 -Wformat -Wformat-security -Werror=format-security -std=gnu++20 -fdeprecated-macro -fdebug-compilation-dir /home/cory/Code/test_code/C++/todo_list/build/CMakeFiles/CMakeTmp -ferror-limit 19 -fwrapv -stack-protector 2 -stack-protector-buffer-size 4 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -faddrsig -o CMakeFiles/cmTC_a4a11.dir/CMakeCXXCompilerABI.cpp.o -x c++ /nix/store/p1lk3bb1wzyn5v3nw8nyxrc44iy60vwk-cmake-3.19.7/share/cmake-3.19/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [clang -cc1 version 12.0.1 based upon LLVM 12.0.1 default target x86_64-unknown-linux-gnu]
+  ignore line: [ignoring duplicate directory "/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include"]
+  ignore line: [ignoring duplicate directory "/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include"]
+  ignore line: [  as it is a non-system directory that duplicates a system directory]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /nix/store/cx3r4075v0i1kksc40g9nz3vazmlca2x-lldb-12.0.1-dev/include]
+  ignore line: [ /nix/store/bidmlm174mzs8sdag6pb6gbgj04qjrqq-gtest-1.10.0-dev/include]
+  ignore line: [ /nix/store/1lr5wgik95n8apy8lbq54v6s4jk94686-ncurses-6.2-dev/include]
+  ignore line: [ /nix/store/xhmysdkcysr3gqxkxh1zsnahhqz4xyq0-compiler-rt-libc-12.0.1-dev/include]
+  ignore line: [ /nix/store/b2drq6a14lnn81cm4n9phmvfy5hcdnnm-libcxx-12.0.1-dev/include]
+  ignore line: [ /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0]
+  ignore line: [ /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/include/c++/10.3.0/x86_64-unknown-linux-gnu]
+  ignore line: [ /nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/resource-root/include]
+  ignore line: [ /nix/store/hrhn14rls3slhpz0g057c0dyp4lm3rgd-glibc-2.33-47-dev/include]
+  ignore line: [End of search list.]
+  ignore line: [Linking CXX executable cmTC_a4a11]
+  ignore line: [/nix/store/p1lk3bb1wzyn5v3nw8nyxrc44iy60vwk-cmake-3.19.7/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a4a11.dir/link.txt --verbose=1]
+  ignore line: [/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang++  -v CMakeFiles/cmTC_a4a11.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a4a11 ]
+  ignore line: [clang version 12.0.1]
+  ignore line: [Target: x86_64-unknown-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /nix/store/6qb8fb1nirk4wdsqc5fg9ig6327yzmrk-clang-12.0.1/bin]
+  ignore line: [Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  ignore line: [Found candidate GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  ignore line: [Selected GCC installation: /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/ld" --eh-frame-hdr -m elf_x86_64 -o cmTC_a4a11 /nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crt1.o /nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crti.o /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtbegin.o -L/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib -L/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib -L/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib -L/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib -L/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib -L/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib -L/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib -L/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib -L/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0 -L/nix/store/lg104nh0szci8slz5z6494m457jm5y3p-gcc-10.3.0-lib/x86_64-unknown-linux-gnu/lib -L/nix/store/d3r0hhgljsp0nk5n4ra2k2ykvjyah96z-clang-12.0.1-lib/lib -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0 -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64 -L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../.. -dynamic-linker=/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/ld-linux-x86-64.so.2 CMakeFiles/cmTC_a4a11.dir/CMakeCXXCompilerABI.cpp.o -rpath /home/cory/Code/test_code/C++/todo_list/outputs/out/lib64 -rpath /home/cory/Code/test_code/C++/todo_list/outputs/out/lib -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtend.o /nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crtn.o]
+    arg [/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/ld] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a4a11] ==> ignore
+    arg [/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crt1.o] ==> ignore
+    arg [/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crti.o] ==> ignore
+    arg [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtbegin.o] ==> ignore
+    arg [-L/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib] ==> dir [/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib]
+    arg [-L/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib] ==> dir [/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib]
+    arg [-L/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib] ==> dir [/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib]
+    arg [-L/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib] ==> dir [/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib]
+    arg [-L/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib] ==> dir [/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib]
+    arg [-L/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib] ==> dir [/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib]
+    arg [-L/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib] ==> dir [/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib]
+    arg [-L/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib] ==> dir [/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib]
+    arg [-L/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib] ==> dir [/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib]
+    arg [-L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0] ==> dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0]
+    arg [-L/nix/store/lg104nh0szci8slz5z6494m457jm5y3p-gcc-10.3.0-lib/x86_64-unknown-linux-gnu/lib] ==> dir [/nix/store/lg104nh0szci8slz5z6494m457jm5y3p-gcc-10.3.0-lib/x86_64-unknown-linux-gnu/lib]
+    arg [-L/nix/store/d3r0hhgljsp0nk5n4ra2k2ykvjyah96z-clang-12.0.1-lib/lib] ==> dir [/nix/store/d3r0hhgljsp0nk5n4ra2k2ykvjyah96z-clang-12.0.1-lib/lib]
+    arg [-L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0] ==> dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0]
+    arg [-L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64] ==> dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64]
+    arg [-L/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../..] ==> dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../..]
+    arg [-dynamic-linker=/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/ld-linux-x86-64.so.2] ==> ignore
+    arg [CMakeFiles/cmTC_a4a11.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/cory/Code/test_code/C++/todo_list/outputs/out/lib64] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/cory/Code/test_code/C++/todo_list/outputs/out/lib] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0/crtend.o] ==> ignore
+    arg [/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib/crtn.o] ==> ignore
+  collapse library dir [/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib] ==> [/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib]
+  collapse library dir [/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib] ==> [/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib]
+  collapse library dir [/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib] ==> [/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib]
+  collapse library dir [/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib] ==> [/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib]
+  collapse library dir [/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib] ==> [/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib]
+  collapse library dir [/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib] ==> [/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib]
+  collapse library dir [/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib] ==> [/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib]
+  collapse library dir [/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib] ==> [/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib]
+  collapse library dir [/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib] ==> [/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib]
+  collapse library dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0] ==> [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  collapse library dir [/nix/store/lg104nh0szci8slz5z6494m457jm5y3p-gcc-10.3.0-lib/x86_64-unknown-linux-gnu/lib] ==> [/nix/store/lg104nh0szci8slz5z6494m457jm5y3p-gcc-10.3.0-lib/x86_64-unknown-linux-gnu/lib]
+  collapse library dir [/nix/store/d3r0hhgljsp0nk5n4ra2k2ykvjyah96z-clang-12.0.1-lib/lib] ==> [/nix/store/d3r0hhgljsp0nk5n4ra2k2ykvjyah96z-clang-12.0.1-lib/lib]
+  collapse library dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0] ==> [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0]
+  collapse library dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../../../lib64] ==> [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64]
+  collapse library dir [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0/../../..] ==> [/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/nix/store/d1awck7pgn6gllk8gaj7addi6ydwhsw9-lldb-12.0.1-lib/lib;/nix/store/l3rnnxwgndrcggipv7v8lay678vg71d8-gtest-1.10.0/lib;/nix/store/yn7nd41grg2mzvzliphalk70hs0rfpdr-ncurses-6.2/lib;/nix/store/ga18n4zrzg90n3ff8swq8rrhc9qk0a7f-libcxx-12.0.1/lib;/nix/store/cvr0kjg2q7z2wwhjblx6c73rv422k8cm-glibc-2.33-47/lib;/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib/gcc/x86_64-unknown-linux-gnu/10.3.0;/nix/store/lg104nh0szci8slz5z6494m457jm5y3p-gcc-10.3.0-lib/x86_64-unknown-linux-gnu/lib;/nix/store/d3r0hhgljsp0nk5n4ra2k2ykvjyah96z-clang-12.0.1-lib/lib;/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64/gcc/x86_64-unknown-linux-gnu/10.3.0;/nix/store/cj8kp411lblbdm4qj94s14h99dx1pv4b-gcc-10.3.0/lib64]
+  implicit fwks: []
+
+

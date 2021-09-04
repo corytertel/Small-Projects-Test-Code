@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cory/Code/test_code/C++/todo_list/cmdarg.cpp
+cmdarg.hpp
+/home/cory/Code/test_code/C++/todo_list/cmdarg.hpp
+
+/home/cory/Code/test_code/C++/todo_list/cmdarg.hpp
+cstdio
+-
+cstdlib
+-
+stdexcept
+-
+string_view
+-
+vector
+-
+
+/home/cory/Code/test_code/C++/todo_list/main.cpp
+iostream
+-
+string_view
+-
+vector
+-
+span
+-
+cmdarg.hpp
+/home/cory/Code/test_code/C++/todo_list/cmdarg.hpp
+
