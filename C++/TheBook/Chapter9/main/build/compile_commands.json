@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/cory/Code/test_code/C++/TheBook/Chapter9/build",
+  "command": "/nix/store/v32dj1ni4xw5iabw2a85livzgivv1606-clang-wrapper-12.0.1/bin/clang++   -g3 -pthread -gdwarf-4 -fPIC -Wno-deprecated -pipe -fno-elide-type -fdiagnostics-show-template-tree -Wall -Wextra -Werror -Wpedantic -Wvla -Wextra-semi -Wnull-dereference -Wswitch-enum -Wsuggest-override -O -MMD -MP -Wno-gnu-include-next -Wno-unused-variable -Wno-unused-parameter -std=gnu++20 -o CMakeFiles/main.dir/main.cpp.o -c /home/cory/Code/test_code/C++/TheBook/Chapter9/main.cpp",
+  "file": "/home/cory/Code/test_code/C++/TheBook/Chapter9/main.cpp"
+}
+]

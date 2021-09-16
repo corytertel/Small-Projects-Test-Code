@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cory/Code/test_code/C++/TheBook/Chapter9/main.cpp
+cstddef
+-
+iostream
+-
+string
+-
+functional
+-
+
