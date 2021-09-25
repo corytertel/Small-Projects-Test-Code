@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/cory/Code/test_code/C++/lexical_analyzer/build",
+  "command": "/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang++   -g3 -pthread -gdwarf-4 -fPIC -Wno-deprecated -pipe -fno-elide-type -fdiagnostics-show-template-tree -Wall -Wextra -Werror -Wpedantic -Wvla -Wextra-semi -Wnull-dereference -Wswitch-enum -Wsuggest-override -O -MMD -MP -Wno-gnu-include-next -Wno-unused-variable -Wno-unused-parameter -std=gnu++20 -o CMakeFiles/lexical_analyzer.dir/main.cc.o -c /home/cory/Code/test_code/C++/lexical_analyzer/main.cc",
+  "file": "/home/cory/Code/test_code/C++/lexical_analyzer/main.cc"
+},
+{
+  "directory": "/home/cory/Code/test_code/C++/lexical_analyzer/build",
+  "command": "/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang++   -g3 -pthread -gdwarf-4 -fPIC -Wno-deprecated -pipe -fno-elide-type -fdiagnostics-show-template-tree -Wall -Wextra -Werror -Wpedantic -Wvla -Wextra-semi -Wnull-dereference -Wswitch-enum -Wsuggest-override -O -MMD -MP -Wno-gnu-include-next -Wno-unused-variable -Wno-unused-parameter -std=gnu++20 -o CMakeFiles/lexical_analyzer.dir/inputbuf.cc.o -c /home/cory/Code/test_code/C++/lexical_analyzer/inputbuf.cc",
+  "file": "/home/cory/Code/test_code/C++/lexical_analyzer/inputbuf.cc"
+},
+{
+  "directory": "/home/cory/Code/test_code/C++/lexical_analyzer/build",
+  "command": "/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang++   -g3 -pthread -gdwarf-4 -fPIC -Wno-deprecated -pipe -fno-elide-type -fdiagnostics-show-template-tree -Wall -Wextra -Werror -Wpedantic -Wvla -Wextra-semi -Wnull-dereference -Wswitch-enum -Wsuggest-override -O -MMD -MP -Wno-gnu-include-next -Wno-unused-variable -Wno-unused-parameter -std=gnu++20 -o CMakeFiles/lexical_analyzer.dir/lexer.cc.o -c /home/cory/Code/test_code/C++/lexical_analyzer/lexer.cc",
+  "file": "/home/cory/Code/test_code/C++/lexical_analyzer/lexer.cc"
+},
+{
+  "directory": "/home/cory/Code/test_code/C++/lexical_analyzer/build",
+  "command": "/nix/store/x1bi2mkapk1m0zq2g02nr018qyjkdn7a-clang-wrapper-12.0.1/bin/clang++   -g3 -pthread -gdwarf-4 -fPIC -Wno-deprecated -pipe -fno-elide-type -fdiagnostics-show-template-tree -Wall -Wextra -Werror -Wpedantic -Wvla -Wextra-semi -Wnull-dereference -Wswitch-enum -Wsuggest-override -O -MMD -MP -Wno-gnu-include-next -Wno-unused-variable -Wno-unused-parameter -std=gnu++20 -o CMakeFiles/lexical_analyzer.dir/parser.cc.o -c /home/cory/Code/test_code/C++/lexical_analyzer/parser.cc",
+  "file": "/home/cory/Code/test_code/C++/lexical_analyzer/parser.cc"
+}
+]
