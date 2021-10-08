@@ -17,7 +17,7 @@ auto main(int argc, char** argv) -> int {
     std::span<char*> args{ argv, size_t(argc) };
     //Container for all flags and their arguments
     std::vector<CmdArg> flags{};
-
+    
     //Check to see if the first flag is valid
     if (args[1][0] != '-') {
         std::cout << "Invalid flag." << std::endl;
