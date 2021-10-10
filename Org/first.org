@@ -1,0 +1,13 @@
+#+title: My first org file
+#+DESCRIPTION: Testing the feastures from org
+
+* Notes
+** Today I've had pasta for lunch!
+   It was delicious
+** What will I have tonight?
+   How about pasta
+
+* Today's schedule
+** Do homework
+
+   Hello world!
